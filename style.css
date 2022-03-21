@@ -121,24 +121,22 @@ body {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 20px;  
+    font-size: 30px;  
     text-align: center; 
     text-transform: uppercase; 
     color: var(--color-second);
-    color: #fff;
+    
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 30px;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: start;
     margin-bottom: 10px;
-    color: #fff;
-    margin-left: 20px;
-    margin-bottom: -10px;
+    color: var(--color-second);
 }
 
 h3 {    
@@ -161,11 +159,9 @@ h4 {
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-    text-align:start;
     letter-spacing: 0.100em;
-    margin: 15px;
     line-height: 1.5em;
-    color: #fff;
+    color: var(--color-second);
     }
 
 button {
@@ -185,3 +181,23 @@ font-family: 'IBM Plex Sans', sans-serif;
         text-decoration: none;
         padding: 10px;
     }
+
+ol {
+    font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        color: var(--color-second);
+        margin: 10px;
+}
+
+ol img {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #fff;
+    background: var(--color-second);
+}
